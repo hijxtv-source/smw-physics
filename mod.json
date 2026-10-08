@@ -1,0 +1,23 @@
+{
+	"geode": "5.10.1",
+	"gd": {
+		"win": "2.2081",
+		"android": "2.2081",
+		"mac": "2.2081"
+	},
+	"id": "tuusuario.smw-physics",
+	"name": "Super Mario World Physics",
+	"version": "v0.2.0",
+	"developer": "tuusuario",
+	"description": "Movimiento estilo Super Mario World (aceleracion, correr, P-speed, salto variable, spin jump) en el modo plataformas de Geometry Dash.",
+	"settings": {
+		"enabled": { "type": "bool", "name": "Activar fisica SMW", "default": true },
+		"debug-log": { "type": "bool", "name": "Log de calibracion", "default": false },
+		"powerup": {
+			"type": "string",
+			"name": "Estado de Mario",
+			"default": "Super",
+			"one-of": ["Small", "Super", "Fire", "Cape"]
+		}
+	}
+}
